@@ -1,0 +1,67 @@
+/* improvedND */
+
+/* This skin is a vast improvement (in my opinion) over the standard
+ND skin. */
+
+.Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton {
+  background-color: #ae9142;
+  border: 0 solid #ae9142;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-appearance: none}
+  @media only screen and (min-device-width: 1024px) {
+    .Skin #Buttons #NextButton:hover, .Skin #Buttons #PreviousButton:hover {
+      background-color: #001328;
+      border-color: #001328; }
+    .Skin #Buttons #NextButton:active, .Skin #Buttons #PreviousButton:active {
+      background-color: black;
+      border-color: black; } }
+
+
+html .Skin #Logo, html .CSS3 .Skin #Logo {
+  background: transparent url("logo.png") no-repeat 20px center;
+  background-size: 173px 72px;
+  height: 72px;
+  margin: 0px auto;
+  max-width: 900px;
+  padding: 25px 20px;}
+
+#SurveyEngineBody {
+  background: url(bg.png);
+  background-size: fit;
+  font-family: "Arial", "Helvetica Neue", "Helvetica", arial, sans-serif; }
+
+.Skin #LogoContainer {
+  background: white url("https://nd.qualtrics.com/CP/Graphic.php?IM=IM_42wqFEMKqQNSTsx") no-repeat center center; }
+.Skin #HeaderContainer {
+  background: #ae9142; }
+.Skin #Header {
+  background: transparent;
+  font-size: 16px;
+  color: white;
+  margin: 0px auto;
+  max-width: 900px;
+  min-height: 16px;
+  padding: 13px 20px; }
+.Skin .SkinInner {
+  margin: 30px auto;
+  max-width: 1200px;
+  width: 100%; }
+.Skin #SkinContent {
+  background-color: transparent;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;

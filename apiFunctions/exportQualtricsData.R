@@ -9,7 +9,7 @@
 # Acknowledgement - This function was adapted from Jason Beyer's function.
 
 exportQualtricsData = function (username, token, format, surveyID, dropExtra = FALSE) {
-  url = paste("https://survey.qualtrics.com//WRAPI/ControlPanel/api.php?Version=2.4&Request=getLegacyResponseData",
+  url = paste("https://survey.qualtrics.com//WRAPI/ControlPanel/api.php?Version=2.5&Request=getLegacyResponseData",
               "&User=", username,
               "&Token=", token,
               "&Format=", format,

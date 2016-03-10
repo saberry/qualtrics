@@ -6,7 +6,7 @@ This is just a collection of various scripts that I use for Qualtrics.
 
 There are a variety of little JS scripts that you can apply to your survey.
 
-I have included a few of them here, but you will likely need to adapt them to fit your specific needs.
+I will be including a few of them here, but you will likely need to adapt them to fit your specific needs.
 
 ## CSS
 
@@ -16,3 +16,6 @@ There are a few skins that I like to use for different purposes
 
 If you have access to the Qualtrics REST API, then some of these functions might be useful for you.
 
+## Regular Expression
+
+**Coming Soon** -- There are a handful of very useful regular expressions that you can use for custom flow and validation.

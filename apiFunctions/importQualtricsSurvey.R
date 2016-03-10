@@ -11,7 +11,7 @@ importQualtricsSurvey = function (username, token, format, surveyName, inputForm
 
   require(httr)
 
-  url = paste("https://survey.qualtrics.com//WRAPI/ControlPanel/api.php?Version=2.4&Request=importSurvey",
+  url = paste("https://survey.qualtrics.com//WRAPI/ControlPanel/api.php?Version=2.5&Request=importSurvey",
               "&User=", username,
               "&Token=", token,
               "&Format=", format,

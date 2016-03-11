@@ -2,6 +2,10 @@
 
 This is just a collection of various scripts that I use for Qualtrics.
 
+## R API Functions
+
+If you have access to the Qualtrics REST API, then some of these functions might be useful for you.
+
 ## JavaScript
 
 There are a variety of little JS scripts that you can apply to your survey.
@@ -11,10 +15,6 @@ I will be including a few of them here, but you will likely need to adapt them t
 ## CSS
 
 There are a few skins that I like to use for different purposes
-
-## API Functions
-
-If you have access to the Qualtrics REST API, then some of these functions might be useful for you.
 
 ## Regular Expression
 

@@ -1,0 +1,6 @@
+10 digit phone number with no special characters - [0-9]{10}
+
+Feet - [3-7]$|^\s*$
+
+Inches - ^(0[0-9])$|^(1[0-1])$|^([0-9])$|^\s*$
+

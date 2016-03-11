@@ -1,12 +1,13 @@
-# To use this function, follow this format:
-#
-# exportQualtricsData("username", "token", "format", "SurveyID")
-#
-# Replace "username", "token", "format", and "surveyID" with your own values.
-#
-# Do keep them in quotes!
-#
-# Acknowledgement - This function was adapted from Jason Beyer's function.
+################################################################################
+# To use this function, follow this format:                                    #
+#                                                                              #
+# exportQualtricsData("username", "token", "format", "SurveyID")               #
+#                                                                              #
+# Replace "username", "token", "format", and "surveyID" with your own values.  #
+#                                                                              #
+# Acknowledgement - This function was adapted from Jason Beyer's function. It  #
+# has been improved to handle more username types and has the updated api.     #
+################################################################################
 
 exportQualtricsData = function (username, token, format, surveyID, dropExtra = FALSE) {
   url = paste("https://survey.qualtrics.com//WRAPI/ControlPanel/api.php?Version=2.5&Request=getLegacyResponseData",

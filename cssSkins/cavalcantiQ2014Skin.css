@@ -1,0 +1,243 @@
+/* Cavalcanti */
+
+/* This skin is modeled from Karthik Ram's "wesanderson" R package. It is for use
+with the Qualtrics 2014 skin.*/
+
+#SurveyEngineBody {
+  background: #81A88D;
+  background-size: cover; }
+
+.Skin .QuestionText {
+    font-size: 18px;
+    color: #000;
+    padding: 20px;
+    line-height: 1.5em; }
+    @media all and (max-width: 768px) {
+      .Skin .QuestionText {
+        padding: 15px; } }
+  .Skin .QuestionBody {
+    color: #404040;
+    font-size: 16px;
+    overflow-y: hidden;
+    padding: 0 20px 20px 20px;
+    position: relative;
+    z-index: 1; }
+    @media all and (max-width: 768px) {
+      .Skin .QuestionBody {
+        padding: 0 15px 15px 15px; } }
+
+  .Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton {
+    border: none;
+    color: #02401B;
+    font-size: 16px;
+    padding: 8px 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-appearance: none;
+    transition: background .5s;
+    background-color: #D8B70A; }
+    .Skin #Buttons #NextButton:focus, .Skin #Buttons #PreviousButton:focus {
+      background: #02401B;
+	  color: #972D15;
+      outline: none; }
+    @media only screen and (min-device-width: 1025px) {
+      .Skin #Buttons #NextButton:hover, .Skin #Buttons #PreviousButton:hover {
+        background: #02401B;
+		color: #A2A475;
+        border-color: #02401B; }
+      .Skin #Buttons #NextButton:active, .Skin #Buttons #PreviousButton:active {
+        background: #02401B;
+		color: #A2A475;
+        border-color: #02401B; } }
+
+.Skin label.SingleAnswer,
+.Skin label.MultipleAnswer {
+  cursor: pointer;
+  background: #D8B70A;
+  background: #D8B70A;
+  border: none;
+  transition: background .2s ease-in-out;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 20px; }
+  @media all and (max-width: 480px) {
+    .Skin label.SingleAnswer,
+    .Skin label.MultipleAnswer {
+      padding: 10px 4%; } }
+  @media only screen and (min-device-width: 1025px) {
+    .Skin label.SingleAnswer:hover,
+    .Skin label.MultipleAnswer:hover {
+      background: #A2A475;
+      background: #A2A475;
+      border-color: #A2A475; } }
+  .Skin label.SingleAnswer.q-focused,
+  .Skin label.MultipleAnswer.q-focused {
+    background: #972D15;
+    border-color: #972D15; }
+  .Skin label.SingleAnswer.q-checked,
+  .Skin label.MultipleAnswer.q-checked {
+    background: #972D15;
+    border-color: #972D15;
+    color: #FAEFD1; }
+    .Skin label.SingleAnswer.q-checked.q-focused,
+    .Skin label.MultipleAnswer.q-checked.q-focused {
+      background: #972D15; }
+
+.Skin label.SingleAnswer.q-checked, .Skin label.MultipleAnswer.q-checked {
+    background: none repeat scroll 0 0 #972D15;
+    border-color: #972D15;
+    color: white;
+}
+
+.Skin .SkinInner {
+    max-width: 770px;
+    margin: 0 auto;
+    background: #F8F8FF;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    display: table \9;
+    min-width: 770px \9; }
+    @media only screen and (max-width: 767px) {
+      .Skin .SkinInner {
+        margin: 0 auto;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0; } }
+    @media (min-width: 980px) {
+      .Skin .SkinInner {
+        display: table;
+        min-width: 770px; } }
+
+.Skin #Plug {
+    text-align: center; }
+    .Skin #Plug a {
+      font-size: 14px;
+      color: #404040;
+      text-decoration: none;
+      padding: 12px 24px; }
+
+.Skin #Plug a {
+    color: #404040;
+    height: 40px;
+    float: left;
+    background: #e6e6e6;
+    background: rgba(61, 61, 68, 0.3);
+    -webkit-transition: background .3s;
+    text-align: center;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    -ms-border-radius: 5px 0 0 0;
+    -o-border-radius: 5px 0 0 0;
+    border-radius: 5px 0 0 0; }
+    .Skin #Plug a:focus {
+      background: #DC863B;
+      outline: none; } }
+  @media only screen and (min-device-width: 1281px) and (min-device-width: 1025px) {
+    .Skin #Plug a:hover {
+      background: #DC863B; } }
+  @media only screen and (min-device-width: 1281px) and (max-width: 767px) {
+    .Skin #Plug a {
+      float: none;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+      border-radius: 0; } }
+
+.Skin select {
+  border: 2px solid #d2d2d6;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 2px; }
+  .Skin input.TextEntryBox:focus,
+  .Skin .TE textarea:focus,
+  .Skin textarea:focus,
+  .Skin input[type="password"]:focus,
+  .Skin input[type="text"]:focus,
+  .Skin input[type="search"]:focus,
+  .Skin select:focus {
+    border-color: #DC863B;
+    outline: none; }
+@media only screen and (max-width: 480px) {
+  .Skin .HSLIDER input[type="text"], .Skin .Slider input[type="text"], .Skin .Matrix input[type="text"], .Skin .PGR input[type="text"] {
+    width: 6em;
+    max-width: 100%; } }
+
+.Skin .TE .SL .InputText, .Skin .TE .ML .InputText, .Skin .TE .ESTB .InputText, .Skin .TE .PW .InputText, .Skin .TE .FORM .InputText, .Skin .MC .TextEntryBox {
+    margin: 2px 25px;
+    max-width: 100%;
+}
+
+
+#TocIcon {
+  background-image: none;
+  display: inline-block;
+  width: 18px;
+  height: 3px;
+  background: #D8B70A;
+  border-radius: 1.5px;
+  transition: 0.3s;
+  position: relative;
+  top: 8px; }
+  #TocIcon:before, #TocIcon:after {
+    display: inline-block;
+    width: 18px;
+    height: 3px;
+    background: #972D15;
+    border-radius: 1.5px;
+    transition: 0.3s;
+    position: absolute;
+    right: 0;
+    content: ''; }
+  #TocIcon:before {
+    top: 6px; }
+  #TocIcon:after {
+    top: -6px; }
+.Skin #TocSidebarContainer {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background: #F8F8FF; }
+  .Skin #TocSidebarContainer.reduced {
+    background: #F8F8FF;
+    left: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .Skin #TocSidebarContainer.closed {
+    box-shadow: none;
+    transition: 0s linear left; }
+.Skin #TocHeader td.Current a, .Skin #Toc li.Current, .Skin #Toc li.Current a, .Skin body #Toc li.Current a, .Skin #Toc li.Current strong, .Skin #Toc li.Current {
+  background-color: #972D15;
+  color: #FFF; }
+a:link {
+   color:inherit;
+}
